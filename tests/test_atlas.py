@@ -10,6 +10,10 @@ class AtlasTests(unittest.TestCase):
     def test_hdfs_search_in_chinese(self):
         self.assertIn("hdfs", search("分布式文件系统"))
 
+    def test_mapreduce_search(self):
+        self.assertIn("mapreduce", search("MapReduce"))
+        self.assertIn("mapreduce", search("映射归约"))
+
     def test_links_resolve(self):
         topics = load_topics()
         ids = {topic["id"] for topic in topics}
