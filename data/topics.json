@@ -1,4 +1,4 @@
 [
-  {"id": "hdfs", "keywords": ["HDFS"], "links": ["mapreduce"]},
+  {"id": "hdfs", "keywords": ["HDFS", "分布式文件系统"], "links": ["mapreduce"]},
   {"id": "mapreduce", "keywords": ["MapReduce"], "links": []}
 ]
